@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <style>
+  body {
+    background-color: #9ecec7; 
+  }
+  .audio-player {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #9ecec7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+</style>
+  <body>
+    <form align=center action="#" method="get">
+      <label for="Nombre">Nombre y apellidos:</label>
+      <input type="text" id="tnombre" name="nombre" placeholder="Escribe tu nombre y apellidos" max="200"><br>
+      <br>
+      <label for="gmail">Correo electronico:</label>
+      <input type="email" id="tcrreo" name="correo" placeholder="tu correo electronico" max="100"><br>
+      <br>
+      <label for="1">¿Cuanto te ha gustado?</label>
+      <br>
+      <br>
+      <input type="checkbox" id="molto" name="Mucho" value="Mucho" checked>
+      <label for="Mucho">Mucho</label>
+      <br>
+      <input type="checkbox" id="si" name="Me ha gustado" value="Me ha gustado">
+        <label for="Me ha gustado">Me ha gustado</label>
+        <br>
+        <input type="checkbox" id="no_molto" name="No mucho" value="No mucho">
+        <label for="No mucho">No mucho</label>
+        <br>
+        <input type="checkbox" id="nu" name="No" value="No">
+        <label for="No">No</label>
+        <br>
+        <br>
+        <label for="Observacion">Observaciones:</label>
+        <br>
+        <textarea name="mensaje" maxlength="300" placeholder="Escriba algún comentario para mejorar."></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div class="audio-player">
+    <audio src="audio_form.mp3" controls hidden autoplay>
+      </audio>
+    </div>
+  </body>
+</html>
