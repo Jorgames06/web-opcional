@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Portada</title>
+    <link rel="alternate" type="multimedia/rss+xml" title="RSS" href="pepe.rss">
+    <style>
+        body {
+            background-image: url("portada.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            margin: 0;
+        }
+
+        .menu {
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+        .menu a {
+            color: white;
+            font-family: Helvetica, sans-serif;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px;
+            transition: background 0.3s;
+        }
+        .container {
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+            color: white;
+        }
+
+        .container1 {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .container1 img {
+            width: 40px;
+            height: 40px;
+        }
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="página_principal.html">Inicio</a></li>
+        <li><a href="carta_pizza.html">Pizzas</a></li>
+        <li><a href="carta_vegetariana.html">Carta Vegetariana</a></li>
+        <li><a href="Bebidas_postres.html">Bebida y Postres</a></li>
+        <li><a href="contra_portada.html">Contacta con Nosotros</a></li>
+    </ul>
+    <div class="container">
+        <img src="logo_pizzería_para_form.png" alt="Logo Pizzería">
+    </div>
+    <footer>
+        <a href="menu.html"><img src="baixa.png" width="20" height="20" alt="RSS"></a>
+    </footer>
+</body>
+</html>
