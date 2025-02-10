@@ -1,0 +1,33 @@
+<rss version="2.0">
+    <channel>
+        <title>Carta Italiana</title>
+        <link>http://127.0.0.1:5500/css/p%C3%A1gina_principal.html</link>
+        <description>Carta italiana de un restaurante.</description>
+        <language>es</language>
+        <item>
+            <title>Inicio</title>
+            <link>http://127.0.0.1:5500/css/p%C3%A1gina_principal.html#1</link>
+            <description>Bienvenido a la página principal</description>
+        </item>
+        <item>
+            <title>Carta vegetariana</title>
+            <link>http://127.0.0.1:5500/css/carta_vegetariana.html</link>
+            <description>Bienvenido a la carta vegetariana</description>
+        </item>
+        <item>
+            <title>Bebidas</title>
+            <link>http://127.0.0.1:5500/css/Bebidas_postres.html</link>
+            <description>Conoce nuestras mejores bebidas y postres.</description>
+        </item>
+        <item>
+            <title>Nuestras Pizzas</title>
+            <link>http://127.0.0.1:5500/css/carta_pizza.html</link>
+            <description>Descubre nuestras pizzas.</description>
+        </item>
+        <item>
+            <title>Contacto</title>
+            <link>http://127.0.0.1:5500/css/contra_portada.html</link>
+            <description>Contacta con nosotros.</description>
+        </item>
+    </channel>
+</rss>
